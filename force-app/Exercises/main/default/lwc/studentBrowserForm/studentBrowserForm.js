@@ -45,5 +45,9 @@ wired_getInstructors({ error, data }) {
         this.error = error;
         }
         }
+        onInstructorChange(event){
+            this.selectedDeliveryId = '';
+            this.selectedInstructorId = event.target.value;
+        }
 
 }
