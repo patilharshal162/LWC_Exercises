@@ -10,8 +10,8 @@ export default class StudentTile extends LightningElement {
         return this.isSelected ? "tile selected" : "tile";
         }
         studentClick(event){
-            //alert(this.student.Name);
+            //alert(this.student.Nam);
             debugger;
-            console.log('Name**'+ this.student.Name);
+            console.log('Names**'+ this.student.Name);
             }
 }
